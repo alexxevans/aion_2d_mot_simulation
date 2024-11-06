@@ -1,0 +1,16 @@
+{
+  "params": {
+    "cooling_beam_detuning": -146.44,
+    "cooling_beam_radius": 11.33,
+    "cooling_beam_power_mw": 304.79,
+    "push_beam_detuning": -260.07,
+    "push_beam_radius": 8.01,
+    "push_beam_power": 2.3,
+    "push_beam_offset": 1.98,
+    "quadrupole_gradient": 27.11,
+    "vertical_bias_field": 0.16
+  },
+  "total_atoms": 5e7,
+  "pipe_radius": 1.5,
+  "pipe_offset": 1.0
+}
