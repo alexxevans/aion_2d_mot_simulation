@@ -7,10 +7,9 @@ dependencies:
   - pytorch
   - numpy
   - joblib
-  - normflows
   - pandas
-  - pickle-mixin
   - pip
   - setuptools
   - pip:
+    - pickle
     - normflows
