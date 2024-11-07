@@ -1,0 +1,16 @@
+name: 2d_mot_sim
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.9
+  - pytorch
+  - numpy
+  - joblib
+  - normflows
+  - pandas
+  - pickle-mixin
+  - pip
+  - setuptools
+  - pip:
+    - normflows
