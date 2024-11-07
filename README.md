@@ -4,8 +4,8 @@ AI Model of 2D+ Magneto-Optical Trap
 
 The model consists of:
 
-- A deep neural network to predict the number of vectors
-- A CNF-PD (Continuous Normalising Flow with Pre-Diffusion) model, which uses an initial period of diffusion where the data is gradually introduced from static noise, followed by standard CNF training with learning rate decay and early stopping rounds
+- A deep neural network to predict the probability of a generated atom being transmitted
+- A CNF-PD (Continuous Normalising Flow with Pre-Diffusion) model, which uses an initial period of diffusion where the data is gradually introduced from static noise, followed by standard CNF training with learning rate decay and early stopping rounds; this model samples the vectors
 
 ## How to Run
 
