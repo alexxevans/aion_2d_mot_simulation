@@ -1,6 +1,6 @@
 # aion_2d_mot_simulation
 
-AI Model of 2D+ Magneto-Optical Trap
+AI Model of the 2D+ Magneto-Optical Trap used in AION
 
 The model consists of:
 
