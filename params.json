@@ -4,13 +4,30 @@
     "cooling_beam_radius": 11.33,
     "cooling_beam_power_mw": 304.79,
     "push_beam_detuning": -260.07,
-    "push_beam_radius": 8.01,
+    "push_beam_radius": 1.98,
     "push_beam_power": 2.3,
-    "push_beam_offset": 1.98,
+    "push_beam_offset": 2.51,
     "quadrupole_gradient": 27.11,
     "vertical_bias_field": 0.16
   },
-  "total_atoms": 5e7,
-  "pipe_radius": 1.5,
-  "pipe_offset": 1.0
+  "total_atoms": 5000000.0,
+  "n_estimate": 20000,
+  "objective": "capturable_flux",
+  "objective_parameters": {
+    "capturable_flux": {
+      "capture_velocity": 30.0,
+      "capture_radius_mm": 7.5,
+      "drift_distance_m": 0.3675,
+      "pipe_radius_mm": 1.5,
+      "pipe_remaining_m": 0.015,
+      "capture_angle_rad": 0.016,
+      "require_in_pipe_at_plane": true,
+      "beam_tilt_rad": 0.3787
+    },
+    "weighted_penalty": {
+      "pipe_radius_mm": 1.5,
+      "velocity_weight": 0.25,
+      "displacement_weight": 1.1
+    }
+  }
 }

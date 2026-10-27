@@ -1,15 +1,16 @@
-name: 2d_mot_sim
+name: aion_2dmot
 channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3.9
+  - python=3.10
   - pytorch
   - numpy
-  - joblib
   - pandas
+  - scipy
+  - joblib
+  - scikit-learn
   - pip
-  - setuptools
   - pip:
-    - pickle
-    - normflows
+      - normflows
+      - hyperopt
